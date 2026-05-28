@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Druwon Lashawa — IT & Multimedia Designer</title>
+    <meta name="description" content="Druwon Lashawa — IT & Multimedia Applications Specialist and Graphic & Web Designer based in Cape Town, South Africa">
+    <meta name="keywords" content="multimedia designer, web developer, graphic designer, IT specialist, Cape Town, South Africa">
+    <meta name="author" content="Druwon Lashawa">
+    <meta property="og:title" content="Druwon Lashawa — IT & Multimedia Designer">
+    <meta property="og:description" content="Portfolio of Druwon Lashawa — IT & Multimedia Applications Specialist and Graphic & Web Designer">
+    <meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230E0E0E'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='Georgia,serif' font-weight='900' font-size='42' fill='%23C9A96E'>DL</text></svg>">
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="msapplication-TileColor" content="#0E0E0E">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<body>
+
+    <div class="box grab"></div>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+    <div class="noise"></div>
+
+    <!-- Availability Strip -->
+    <div class="avail-strip">
+        <div class="avail-inner">
+            <span class="dot"></span>
+            <span>Available for immediate opportunities</span>
+            <span class="sep">—</span>
+            <span>Cape Town, South Africa</span>
+            <span class="sep">—</span>
+            <span>druwon.lashawa@gmail.com</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <div class="nav-inner">
+            <a href="#home" class="nav-logo">DL<span>.</span></a>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#certificates">Credentials</a></li>
+                <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+            </ul>
+            <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+                <span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileClose" aria-label="Close menu">&#215;</button>
+        <ul>
+            <li><a href="#about" class="mm-link">About</a></li>
+            <li><a href="#services" class="mm-link">Services</a></li>
+            <li><a href="#work" class="mm-link">Work</a></li>
+            <li><a href="#certificates" class="mm-link">Credentials</a></li>
+            <li><a href="#contact" class="mm-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-bg-wordmark">Druwon<br>Lashawa</div>
+        <div class="hero-inner">
+            <div class="hero-left">
+                <p class="hero-eyebrow">IT &amp; Multimedia Specialist</p>
+                <h1 class="hero-name">
+                    <span class="line" data-text="Druwon">Druwon</span>
+                    <span class="line italic" data-text="Lashawa">Lashawa</span>
+                </h1>
+                <p class="hero-sub">Graphic Designer · Web Developer · UI/UX · Digital Strategist</p>
+                <div class="hero-actions">
+                    <a href="#work" class="btn-primary">View My Work</a>
+                    <a href="Resume/Druwon_Lashawa_CV.pdf" class="btn-ghost" target="_blank">Download CV</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat"><span class="stat-n">4+</span><span class="stat-l">Live Projects</span></div>
+                    <div class="stat"><span class="stat-n">6+</span><span class="stat-l">Certificates</span></div>
+                    <div class="stat"><span class="stat-n">5</span><span class="stat-l">Core Services</span></div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-img-wrap">
+                    <div class="hero-img-frame">
+                        <img src="img/OIP (1).webp" alt="Druwon Lashawa" onerror="this.style.display='none'">
+                    </div>
+                    <div class="hero-badge">
+                        <svg viewBox="0 0 100 100" class="badge-ring">
+                            <path id="badgePath" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"/>
+                            <text><textPath href="#badgePath">AVAILABLE TO WORK · OPEN TO HIRE · CAPE TOWN ·</textPath></text>
+                        </svg>
+                        <span class="badge-dot"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-grid">
+
+                <div class="about-left reveal">
+                    <div class="section-label">01 — About</div>
+                    <h2 class="section-title">Creativity <em>meets</em><br>Technology</h2>
+                    <div class="about-img-wrap">
+                        <img src="img/Druwon1.png" alt="Druwon Lashawa" onerror="this.style.display='none'">
+                    </div>
+                    <div class="about-watermark">DL</div>
+                </div>
+
+                <div class="about-right reveal delay-15">
+                    <p class="about-lead">I'm an ambitious IT professional with a focus on multimedia applications, passionate about the intersection of technology and creativity.</p>
+                    <p class="about-body">Motivated and versatile professional with hands-on experience across administration, operations, design and technology. Known for being reliable, deadline-driven and easy to work with. I bring a strong work ethic and a willingness to learn to any role I take on and I'm actively seeking an opportunity to grow within a professional organisation.</p>
+                    <div class="skills-section">
+                        <h4>Core Skills</h4>
+                        <div class="skills-wrap">
+                            <span class="skill">Web Development</span>
+                            <span class="skill">HTML · CSS · JavaScript</span>
+                            <span class="skill">Adobe Photoshop</span>
+                            <span class="skill">Adobe Illustrator</span>
+                            <span class="skill">Adobe InDesign</span>
+                            <span class="skill">UI/UX Design</span>
+                            <span class="skill">Figma</span>
+                            <span class="skill">Digital Branding</span>
+                            <span class="skill">Digital Marketing</span>
+                            <span class="skill">Microsoft 365</span>
+                            <span class="skill">Systems Analysis</span>
+                            <span class="skill">Team Collaboration</span>
+                        </div>
+                    </div>
+                    <div class="about-ctas">
+                        <a href="https://www.linkedin.com/in/druwon-lashawa-34726a3a9" class="btn-primary" target="_blank" rel="noopener">LinkedIn Profile</a>
+                        <a href="#contact" class="btn-ghost">Let's Talk</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section services">
+        <div class="container">
+            <div class="services-wordmark">Services</div>
+            <div class="section-head reveal">
+                <div class="section-label">02 — Services</div>
+                <h2 class="section-title">What I <em>Do</em></h2>
+            </div>
+            <div class="services-list">
+                <div class="svc-item reveal delay-0">
+                    <div class="svc-num">01</div>
+                    <div class="svc-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M3 9h18M9 21V9" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <div class="svc-content">
+                        <h3>Web Design &amp; Development</h3>
+                        <p>Responsive, user-friendly websites built with contemporary technologies and best practices. From concept to deployment.</p>
+                    </div>
+                    <div class="svc-arrow">↗</div>
+                </div>
+                <div class="svc-item reveal delay-1">
+                    <div class="svc-num">02</div>
+                    <div class="svc-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M12 2v3M12 19v3M2 12h3M19 12h3M5.64 5.64l2.12 2.12M16.24 16.24l2.12 2.12M5.64 18.36l2.12-2.12M16.24 7.76l2.12-2.12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="svc-content">
+                        <h3>Graphic Design</h3>
+                        <p>Visually impactful graphics for digital and print — logos, brand identities, brochures and marketing collateral.</p>
+                    </div>
+                    <div class="svc-arrow">↗</div>
+                </div>
+                <div class="svc-item reveal delay-2">
+                    <div class="svc-num">03</div>
+                    <div class="svc-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M8 4v16M2 10h6M2 16h6" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <div class="svc-content">
+                        <h3>UI/UX Design</h3>
+                        <p>Intuitive user interfaces and seamless experiences crafted in Figma — wireframes, prototypes and design systems.</p>
+                    </div>
+                    <div class="svc-arrow">↗</div>
+                </div>
+                <div class="svc-item reveal delay-3">
+                    <div class="svc-num">04</div>
+                    <div class="svc-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="svc-content">
+                        <h3>Digital Marketing</h3>
+                        <p>Strategy and execution to increase online visibility, drive engagement and grow audiences across digital platforms.</p>
+                    </div>
+                    <div class="svc-arrow">↗</div>
+                </div>
+                <div class="svc-item reveal delay-4">
+                    <div class="svc-num">05</div>
+                    <div class="svc-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <rect x="3" y="11" width="18" height="11" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="svc-content">
+                        <h3>IT Solutions</h3>
+                        <p>Technical consulting and support, systems analysis and digital infrastructure solutions for business challenges.</p>
+                    </div>
+                    <div class="svc-arrow">↗</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section work">
+        <div class="container">
+            <div class="work-wordmark">Portfolio</div>
+            <div class="section-head reveal">
+                <div class="section-label">03 — Portfolio</div>
+                <h2 class="section-title">Live <em>Projects</em></h2>
+                <p class="section-sub">Fully deployed projects - Click to explore</p>
+            </div>
+            <div class="work-grid">
+
+                <!-- Pick n Pay -->
+                <div class="work-card reveal delay-0">
+                    <a href="https://picnpayproject.netlify.app/" target="_blank" rel="noopener" class="work-card-link" aria-label="Pick n Pay Campaign Portfolio"></a>
+                    <div class="work-img">
+                        <img src="img/PicnPay.png" alt="Pick n Pay Campaign Portfolio" onerror="this.parentElement.classList.add('no-img')">
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-meta-top">
+                            <span class="work-client">Pick n Pay</span>
+                            <span class="work-num">01</span>
+                        </div>
+                        <h3 class="work-card-title">Pick n Pay Bargain Project</h3>
+                        <div class="work-tags"><span>UI/UX</span><span>Frontend</span><span>HTML/CSS/JS</span></div>
+                        <p class="work-card-desc">Designed, coded and launched an online portfolio documenting the full creative process for a Pick n Pay retail campaign.</p>
+                    </div>
+                    <div class="work-hover-cta">Visit Live Site ↗</div>
+                </div>
+
+                <!-- Secure Aware -->
+                <div class="work-card reveal delay-1">
+                    <a href="projects/Secure Aware Brand Guide.pdf" target="_blank" rel="noopener" class="work-card-link" aria-label="Secure Aware"></a>
+                    <div class="work-img">
+                        <img src="img/Secure_Aware.png" alt="Secure Aware Cybersecurity App" onerror="this.parentElement.classList.add('no-img')">
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-meta-top">
+                            <span class="work-client">Secure Aware</span>
+                            <span class="work-num">02</span>
+                        </div>
+                        <h3 class="work-card-title">Brand Guide</h3>
+                        <div class="work-tags"><span>UI/UX</span><span>Logo Design</span><span>Wireframing</span></div>
+                        <p class="work-card-desc">Created a comprehensive brand guide for a cybersecurity startup, ensuring consistent visual identity and messaging across all touchpoints.</p>
+                    </div>
+                    <div class="work-hover-cta">View File ↗</div>
+                </div>
+                
+                <!-- Huawei -->
+                <div class="work-card reveal delay-3">
+                    <a href="https://huawei-project-website.netlify.app/" target="_blank" rel="noopener" class="work-card-link" aria-label="Huawei Project Website"></a>
+                    <div class="work-img">
+                        <img src="img/Huawei Project.png" alt="Huawei Project Website" onerror="this.parentElement.classList.add('no-img')">
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-meta-top">
+                            <span class="work-client">Huawei</span>
+                            <span class="work-num">04</span>
+                        </div>
+                        <h3 class="work-card-title">Project Website</h3>
+                        <div class="work-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        <p class="work-card-desc">Responsive showcase website presenting the features and benefits of the Huawei technology project.</p>
+                    </div>
+                    <div class="work-hover-cta">Visit Live Site ↗</div>
+                </div>
+
+                <!-- SafeShelterCT -->
+                <div class="work-card reveal delay-4">
+                    <a href="https://safeshelterct.netlify.app/" target="_blank" rel="noopener" class="work-card-link" aria-label="SafeShelterCT"></a>
+                    <div class="work-img">
+                        <img src="img/SafeShelterCT.jpeg" alt="SafeShelterCT" onerror="this.parentElement.classList.add('no-img')">
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-meta-top">
+                            <span class="work-client">SafeShelterCT</span>
+                            <span class="work-num">05</span>
+                        </div>
+                        <h3 class="work-card-title">Community Website</h3>
+                        <div class="work-tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+                        <p class="work-card-desc">Community center website with event listings and donation options for a Cape Town shelter initiative.</p>
+                    </div>
+                    <div class="work-hover-cta">Visit Live Site ↗</div>
+                </div>
+
+                <!-- Health Project -->
+                <div class="work-card reveal delay-5">
+                    <a href="https://omnifoodactivity.netlify.app" target="_blank" rel="noopener" class="work-card-link" aria-label="Health Project Website"></a>
+                    <div class="work-img">
+                        <img src="img/Health Website.png" alt="Health Project Website" onerror="this.parentElement.classList.add('no-img')">
+                    </div>
+                    <div class="work-meta">
+                        <div class="work-meta-top">
+                            <span class="work-client">Health Project</span>
+                            <span class="work-num">06</span>
+                        </div>
+                        <h3 class="work-card-title">Wellness Platform</h3>
+                        <div class="work-tags"><span>HTML5</span><span>CSS3</span><span>Animations</span></div>
+                        <p class="work-card-desc">Modern wellness platform with smooth animations, clean UI and responsive layout across all devices.</p>
+                    </div>
+                    <div class="work-hover-cta">Visit Live Site ↗</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates" class="section certs">
+        <div class="container">
+            <div class="section-head reveal">
+                <div class="section-label">04 — Credentials</div>
+                <h2 class="section-title">Education &amp; <em>Certificates</em></h2>
+            </div>
+            <div class="certs-grid">
+                <a href="certificates/DRU-CPUT Diploma.pdf" class="cert-card reveal delay-0" target="_blank">
+                    <div class="cert-top"><span class="cert-org">Cape Peninsula University of Technology</span><span class="cert-year">2025</span></div>
+                    <h3>Diploma in ICT</h3>
+                    <p>Formal qualification in Information &amp; Communication Technology.</p>
+                    <span class="cert-view">View Certificate ↗</span>
+                </a>
+                <a href="certificates/PicnPay Certificate.pdf" class="cert-card reveal delay-1" target="_blank">
+                    <div class="cert-top"><span class="cert-org">Cape Peninsula University of Technology</span><span class="cert-year">2025</span></div>
+                    <h3>Pick n Pay Certificate</h3>
+                    <p>Industry-awarded certificate for Creative Art and Design work on the Pick n Pay campaign project.</p>
+                    <span class="cert-view">View Certificate ↗</span>
+                </a>
+                <a href="certificates/DRU H-CERT DEC.pdf" class="cert-card reveal delay-2" target="_blank">
+                    <div class="cert-top"><span class="cert-org">Cape Peninsula University of Technology</span><span class="cert-year">2023</span></div>
+                    <h3>Higher Certificate in ICT</h3>
+                    <p>Formal qualification in Information &amp; Communication Technology.</p>
+                    <span class="cert-view">View Certificate ↗</span>
+                </a>
+                <a href="certificates/CertificateOfCompletion_Cert Prep Adobe Certified Associate  Photoshop 2019.pdf" class="cert-card reveal delay-3" target="_blank">
+                    <div class="cert-top"><span class="cert-org">LinkedIn Learning</span><span class="cert-year">2024</span></div>
+                    <h3>Adobe Certified Associate — Photoshop</h3>
+                    <p>Professional certification preparation for Adobe Photoshop 2019.</p>
+                    <span class="cert-view">View Certificate ↗</span>
+                </a>
+                <a href="certificates/CertificateOfCompletion_Cert Prep Adobe Certified Associate  Illustrator (1).pdf" class="cert-card reveal delay-4" target="_blank">
+                    <div class="cert-top"><span class="cert-org">LinkedIn Learning</span><span class="cert-year">2024</span></div>
+                    <h3>Adobe Certified Associate — Illustrator</h3>
+                    <p>Professional certification preparation for Adobe Illustrator.</p>
+                    <span class="cert-view">View Certificate ↗</span>
+                </a>
+                <a href="certificates/CertificateOfCompletion_Cert Prep Adobe Certified Associate  InDesign.pdf" class="cert-card reveal delay-5" target="_blank">
+                    <div class="cert-top"><span class="cert-org">LinkedIn Learning</span><span class="cert-year">2024</span></div>
+                    <h3>Adobe Certified Associate — InDesign</h3>
+                    <p>Professional certification preparation for Adobe InDesign.</p>
+                    <span class="cert-view">View Certificate ↗</span>
+                </a>
+                <a href="certificates/CertificateOfCompletion_UX Foundations Style Guides and Design Systems.pdf" class="cert-card reveal delay-0" target="_blank">
+                    <div class="cert-top"><span class="cert-org">LinkedIn Learning</span><span class="cert-year">2025</span></div>
+                    <h3>UX Foundations: Style Guides &amp; Design Systems</h3>
+                    <p>Design systems, style guides, and UX foundations for product design.</p>
+                    <span class="cert-view">View Certificate ↗</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-wordmark">Let's Talk</div>
+            <div class="contact-grid">
+
+                <!-- LEFT: Info -->
+                <div class="contact-left reveal">
+                    <div class="section-label">05 — Contact</div>
+                    <h2 class="section-title">Let's Work <em>Together</em></h2>
+                    <p class="contact-intro">I'm actively seeking new opportunities in design and web development. If you're hiring — let's talk.</p>
+
+                    <div class="contact-details">
+                        <div class="cd-item">
+                            <span class="cd-label">Location</span>
+                            <span class="cd-val">Cape Town / Oudtshoorn, South Africa</span>
+                        </div>
+                        <div class="cd-item">
+                            <span class="cd-label">Phone</span>
+                            <a href="tel:+27727284358" class="cd-val">072 728 4358</a>
+                        </div>
+                        <div class="cd-item">
+                            <span class="cd-label">Email</span>
+                            <a href="mailto:druwon.lashawa@gmail.com" class="cd-val">druwon.lashawa@gmail.com</a>
+                        </div>
+                        <div class="cd-item">
+                            <span class="cd-label">LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/druwon-lashawa-34726a3a9" class="cd-val" target="_blank" rel="noopener">linkedin.com/in/druwon-lashawa</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT: Contact Form -->
+                <div class="contact-right reveal delay-2">
+                    <form id="contactForm" class="contact-form"
+                          action="https://formspree.io/f/xaqplokn"
+                          method="POST">
+
+                        <input type="hidden" name="_subject" value="💼 New portfolio enquiry — Druwon Lashawa">
+                        <input type="hidden" name="_replyto" id="replyToField">
+                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" hidden>
+
+                        <div class="form-row">
+                            <div class="field">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name">
+                            </div>
+                            <div class="field">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label for="phone">Phone / WhatsApp <span class="field-opt">(optional)</span></label>
+                            <input type="tel" id="phone" name="phone" placeholder="+27 xx xxx xxxx" autocomplete="tel">
+                        </div>
+                        <div class="field">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Job opportunity / Project enquiry" required>
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about the role or project..." required></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn-submit" id="submitBtn">
+                                <span class="btn-text">Send Message</span>
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+
+                            <a href="https://wa.me/27727284358?text=Hi%20Druwon%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20opportunity%20with%20you."
+                               class="whatsapp-btn" target="_blank" rel="noopener">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                </svg>
+                                <span>WhatsApp</span>
+                            </a>
+                        </div>
+
+                        <p class="form-note">Or email me directly at <a href="mailto:druwon.lashawa@gmail.com">druwon.lashawa@gmail.com</a></p>
+
+                        <div class="form-success" id="formSuccess" hidden role="alert">
+                            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M8 12l3 3 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <div>
+                                <strong>Message sent!</strong>
+                                <p>Thanks for reaching out. I'll get back to you within 24–48 hours.</p>
+                            </div>
+                        </div>
+
+                        <div class="form-error" id="formError" hidden role="alert">
+                            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M12 8v4M12 16h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <div>
+                                <strong>Something went wrong.</strong>
+                                <p>Please email me directly at <a href="mailto:druwon.lashawa@gmail.com">druwon.lashawa@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <p>IT &amp; Multimedia Specialist<br>Graphic &amp; Web Designer</p>
+                </div>
+                <div class="footer-right">
+                    <a href="https://www.linkedin.com/in/druwon-lashawa-34726a3a9" target="_blank" rel="noopener" class="f-link">LinkedIn ↗</a>
+                    <a href="mailto:druwon.lashawa@gmail.com" class="f-link">Email ↗</a>
+                    <a href="Resume/Druwon_Lashawa_CV.pdf" target="_blank" class="f-link">Resume ↗</a>
+                </div>
+            </div>
+            <div class="footer-wordmark">
+                <span class="footer-wordmark-text">Druwon Lashawa</span>
+            </div>
+            <div class="footer-bottom">
+                <span>© <span id="footerYear"></span> Druwon Lashawa. All Rights Reserved.</span>
+                <span>Cape Town, South Africa</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
